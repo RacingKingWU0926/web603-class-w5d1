@@ -1,6 +1,6 @@
 const gadgetFactory = require("./gadgetFactory");
 
-const myLaptop = gadgetFactory.createGadget("Laptop", {
+const myLaptop = gadgetFactory.createGadget("laptop", {
   ram: 8,
   ssd: 256,
   name: "Bab's MacBook Pro"
@@ -14,3 +14,5 @@ const myTablet = gadgetFactory.createGadget("Tablet", {
 });
 
 // add console.log here
+console.log(myLaptop);
+console.log(myTablet);
